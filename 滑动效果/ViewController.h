@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "DLCustomSlideView.h"
+@interface ViewController : UIViewController<DLCustomSlideViewDelegate>
+{
+    DLCustomSlideView *slideView;
+    NSMutableArray *itemArray;
+}
 
 @end
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C1BC5E91AC95923008B5CEC /* TestOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1BC5E81AC95923008B5CEC /* TestOneViewController.m */; };
+		6C9DDE271AC936EF0009343D /* PageNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9DDE261AC936EF0009343D /* PageNViewController.m */; };
 		6CACD90B1AC91F5A0045565F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD90A1AC91F5A0045565F /* main.m */; };
 		6CACD90E1AC91F5A0045565F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD90D1AC91F5A0045565F /* AppDelegate.m */; };
 		6CACD9111AC91F5A0045565F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD9101AC91F5A0045565F /* ViewController.m */; };
@@ -14,6 +16,15 @@
 		6CACD9161AC91F5A0045565F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CACD9151AC91F5A0045565F /* Images.xcassets */; };
 		6CACD9191AC91F5A0045565F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CACD9171AC91F5A0045565F /* LaunchScreen.xib */; };
 		6CACD9251AC91F5A0045565F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD9241AC91F5A0045565F /* ____Tests.m */; };
+		6CACD9311AC9203B0045565F /* DLSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD9301AC9203B0045565F /* DLSlideView.m */; };
+		6CACD9371AC920640045565F /* DLLRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD9361AC920640045565F /* DLLRUCache.m */; };
+		6CACD93D1AC9206D0045565F /* DLFixedTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD93A1AC9206D0045565F /* DLFixedTabbarView.m */; };
+		6CACD93E1AC9206D0045565F /* DLScrollTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD93C1AC9206D0045565F /* DLScrollTabbarView.m */; };
+		6CACD9451AC920870045565F /* DLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD9401AC920870045565F /* DLUtility.m */; };
+		6CACD9461AC920870045565F /* DLTabedSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD9421AC920870045565F /* DLTabedSlideView.m */; };
+		6CACD9471AC920870045565F /* DLCustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD9441AC920870045565F /* DLCustomSlideView.m */; };
+		6CEF164D1ACA89B500CD1DBB /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF164B1ACA89B500CD1DBB /* Demo2ViewController.m */; };
+		6CEF164E1ACA89B500CD1DBB /* Demo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CEF164C1ACA89B500CD1DBB /* Demo2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C1BC5E71AC95923008B5CEC /* TestOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOneViewController.h; sourceTree = "<group>"; };
+		6C1BC5E81AC95923008B5CEC /* TestOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOneViewController.m; sourceTree = "<group>"; };
+		6C9DDE251AC936EF0009343D /* PageNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageNViewController.h; sourceTree = "<group>"; };
+		6C9DDE261AC936EF0009343D /* PageNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageNViewController.m; sourceTree = "<group>"; };
 		6CACD9051AC91F5A0045565F /* 滑动效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "滑动效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CACD9091AC91F5A0045565F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CACD90A1AC91F5A0045565F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +55,25 @@
 		6CACD91E1AC91F5A0045565F /* 滑动效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "滑动效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CACD9231AC91F5A0045565F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CACD9241AC91F5A0045565F /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		6CACD92F1AC9203B0045565F /* DLSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSlideView.h; sourceTree = "<group>"; };
+		6CACD9301AC9203B0045565F /* DLSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSlideView.m; sourceTree = "<group>"; };
+		6CACD9341AC920640045565F /* DLCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCacheProtocol.h; sourceTree = "<group>"; };
+		6CACD9351AC920640045565F /* DLLRUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLRUCache.h; sourceTree = "<group>"; };
+		6CACD9361AC920640045565F /* DLLRUCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLRUCache.m; sourceTree = "<group>"; };
+		6CACD9381AC9206D0045565F /* DLSlideTabbarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSlideTabbarProtocol.h; sourceTree = "<group>"; };
+		6CACD9391AC9206D0045565F /* DLFixedTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFixedTabbarView.h; sourceTree = "<group>"; };
+		6CACD93A1AC9206D0045565F /* DLFixedTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFixedTabbarView.m; sourceTree = "<group>"; };
+		6CACD93B1AC9206D0045565F /* DLScrollTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLScrollTabbarView.h; sourceTree = "<group>"; };
+		6CACD93C1AC9206D0045565F /* DLScrollTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLScrollTabbarView.m; sourceTree = "<group>"; };
+		6CACD93F1AC920870045565F /* DLUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLUtility.h; sourceTree = "<group>"; };
+		6CACD9401AC920870045565F /* DLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLUtility.m; sourceTree = "<group>"; };
+		6CACD9411AC920870045565F /* DLTabedSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTabedSlideView.h; sourceTree = "<group>"; };
+		6CACD9421AC920870045565F /* DLTabedSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTabedSlideView.m; sourceTree = "<group>"; };
+		6CACD9431AC920870045565F /* DLCustomSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCustomSlideView.h; sourceTree = "<group>"; };
+		6CACD9441AC920870045565F /* DLCustomSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCustomSlideView.m; sourceTree = "<group>"; };
+		6CEF164A1ACA89B500CD1DBB /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		6CEF164B1ACA89B500CD1DBB /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		6CEF164C1ACA89B500CD1DBB /* Demo2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Demo2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +115,18 @@
 		6CACD9071AC91F5A0045565F /* 滑动效果 */ = {
 			isa = PBXGroup;
 			children = (
+				6CACD92E1AC920210045565F /* DLSlideView */,
 				6CACD90C1AC91F5A0045565F /* AppDelegate.h */,
 				6CACD90D1AC91F5A0045565F /* AppDelegate.m */,
+				6C1BC5E71AC95923008B5CEC /* TestOneViewController.h */,
+				6C1BC5E81AC95923008B5CEC /* TestOneViewController.m */,
 				6CACD90F1AC91F5A0045565F /* ViewController.h */,
 				6CACD9101AC91F5A0045565F /* ViewController.m */,
+				6C9DDE251AC936EF0009343D /* PageNViewController.h */,
+				6C9DDE261AC936EF0009343D /* PageNViewController.m */,
+				6CEF164A1ACA89B500CD1DBB /* Demo2ViewController.h */,
+				6CEF164B1ACA89B500CD1DBB /* Demo2ViewController.m */,
+				6CEF164C1ACA89B500CD1DBB /* Demo2ViewController.xib */,
 				6CACD9121AC91F5A0045565F /* Main.storyboard */,
 				6CACD9151AC91F5A0045565F /* Images.xcassets */,
 				6CACD9171AC91F5A0045565F /* LaunchScreen.xib */,
@@ -117,6 +159,45 @@
 				6CACD9231AC91F5A0045565F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CACD92E1AC920210045565F /* DLSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				6CACD93F1AC920870045565F /* DLUtility.h */,
+				6CACD9401AC920870045565F /* DLUtility.m */,
+				6CACD9411AC920870045565F /* DLTabedSlideView.h */,
+				6CACD9421AC920870045565F /* DLTabedSlideView.m */,
+				6CACD9431AC920870045565F /* DLCustomSlideView.h */,
+				6CACD9441AC920870045565F /* DLCustomSlideView.m */,
+				6CACD9321AC920440045565F /* DLCache */,
+				6CACD9331AC920500045565F /* DLTabbarView */,
+				6CACD92F1AC9203B0045565F /* DLSlideView.h */,
+				6CACD9301AC9203B0045565F /* DLSlideView.m */,
+			);
+			name = DLSlideView;
+			sourceTree = "<group>";
+		};
+		6CACD9321AC920440045565F /* DLCache */ = {
+			isa = PBXGroup;
+			children = (
+				6CACD9341AC920640045565F /* DLCacheProtocol.h */,
+				6CACD9351AC920640045565F /* DLLRUCache.h */,
+				6CACD9361AC920640045565F /* DLLRUCache.m */,
+			);
+			name = DLCache;
+			sourceTree = "<group>";
+		};
+		6CACD9331AC920500045565F /* DLTabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				6CACD9381AC9206D0045565F /* DLSlideTabbarProtocol.h */,
+				6CACD9391AC9206D0045565F /* DLFixedTabbarView.h */,
+				6CACD93A1AC9206D0045565F /* DLFixedTabbarView.m */,
+				6CACD93B1AC9206D0045565F /* DLScrollTabbarView.h */,
+				6CACD93C1AC9206D0045565F /* DLScrollTabbarView.m */,
+			);
+			name = DLTabbarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +282,7 @@
 			files = (
 				6CACD9141AC91F5A0045565F /* Main.storyboard in Resources */,
 				6CACD9191AC91F5A0045565F /* LaunchScreen.xib in Resources */,
+				6CEF164E1ACA89B500CD1DBB /* Demo2ViewController.xib in Resources */,
 				6CACD9161AC91F5A0045565F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +301,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CACD9461AC920870045565F /* DLTabedSlideView.m in Sources */,
+				6CACD9311AC9203B0045565F /* DLSlideView.m in Sources */,
+				6CACD9371AC920640045565F /* DLLRUCache.m in Sources */,
+				6C1BC5E91AC95923008B5CEC /* TestOneViewController.m in Sources */,
+				6CACD9451AC920870045565F /* DLUtility.m in Sources */,
+				6CEF164D1ACA89B500CD1DBB /* Demo2ViewController.m in Sources */,
+				6C9DDE271AC936EF0009343D /* PageNViewController.m in Sources */,
+				6CACD93E1AC9206D0045565F /* DLScrollTabbarView.m in Sources */,
 				6CACD9111AC91F5A0045565F /* ViewController.m in Sources */,
+				6CACD93D1AC9206D0045565F /* DLFixedTabbarView.m in Sources */,
+				6CACD9471AC920870045565F /* DLCustomSlideView.m in Sources */,
 				6CACD90E1AC91F5A0045565F /* AppDelegate.m in Sources */,
 				6CACD90B1AC91F5A0045565F /* main.m in Sources */,
 			);
@@ -343,7 +435,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "滑动效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +447,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "滑动效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +508,7 @@
 				6CACD92A1AC91F5A0045565F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CACD92B1AC91F5A0045565F /* Build configuration list for PBXNativeTarget "滑动效果Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +517,7 @@
 				6CACD92D1AC91F5A0045565F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

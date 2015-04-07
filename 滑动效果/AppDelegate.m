@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TestOneViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    //self.window.backgroundColor = [UIColor clearColor];
+//    TestOneViewController *one = [[TestOneViewController alloc]init];
+//    UINavigationController *gation  = [[UINavigationController alloc]initWithRootViewController:one];
+//    self.window.rootViewController = gation;
+//    
+//    [self.window makeKeyAndVisible];
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor orangeColor];
+    TestOneViewController *ctrl = [[TestOneViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:ctrl];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
