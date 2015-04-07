@@ -61,7 +61,7 @@
     slideView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:slideView];
     //self.navigationController.navigationBarHidden=YES;
-    
+   
     DLLRUCache *cache = [[DLLRUCache alloc]initWithCount:5];
     DLScrollTabbarView *tabitem = [[DLScrollTabbarView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 34)];
     tabitem.tabItemNormalColor = [UIColor blackColor];
